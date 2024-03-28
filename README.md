@@ -2,7 +2,7 @@
 <br />
 <div align="center">
 
-<img src="public/assets/img/ss/ss.png"/>
+<img src="Task 5- To do list/public/assets/img/ss/ss.png" alt="screenshot"/>
 <h2 align="center"> To-do list</h2>
 
   <p align="center">The to-do list is a web app allowing users to add, mark, and delete tasks. Built with JavaScript, 
@@ -51,8 +51,8 @@ List of notable Technologies used to build this applications.
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
-
-
+* ![Axios](https://img.shields.io/badge/Axios-blue?style=for-the-badge&labelColor=blue&logo=axios&logoColor=white)
+* ![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=F0DB4F&logo=javascript&logoColor=white)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -79,7 +79,7 @@ Open your terminal and navigate to the directory where you want to install the L
 Then run the following command:
 
    ```sh
-   git clone https://github.com/Sabbir-Hossain12/Note-taking-App.git
+   git clone https://github.com/Sabbir-Hossain12/inilabs-task.git
    ```
 
 #### 2. Navigate to Project Directory
@@ -87,7 +87,7 @@ Then run the following command:
 Move into the project directory:
 
    ```sh
-   cd Note-taking-App
+   cd Task 5- To do list
    ```
 
 #### 3. Install Dependencies
@@ -122,7 +122,7 @@ Use the following command to run database migrations:
   php artisan migrate
    ```   
 
-#### 7. run the database seeders for dummy data
+#### 7. run the database seeders for dummy data (optional)
 
 Use the following command to run database seeders:
 
@@ -153,30 +153,23 @@ browser.
 
 ## Product Requirement and Roadmap
 
-1. User Authentication:
-    - Implement user registration, login, and logout functionalities.
-    - Ensure secure authentication for accessing user-specific notes.
-2. Note Management:
-    - Allow users to create, edit, and delete notes.
-    - Each note should have a title, content, creation date, and last modified date.
-3. Implement CRUD operations for managing notes.
-    - Search Functionality:
-    - Implement a search feature for users to find notes based on titles or content.
-4. User interface
-    - Utilize the provided Bootstrap template from Bootstrap Examples for designing
-      the user interface.
-    - Design an intuitive and user-friendly interface for creating, viewing, and
-      managing notes.
+
+1. To-Do Management:
+- Allow users to create, update, and delete to-do items.
+- Each to-do item should include a title, description, creation date, and last modified date.
+2. CRUD Operations:
+- Implement Create, Read, Update, and Delete (CRUD) operations for efficient management of to-do items.
+
+3. User Interface:
+- Utilize a Bootstrap template to design an intuitive and visually appealing user interface.
+- Design user-friendly features for creating, viewing, and managing to-do items, ensuring ease of use and navigation.
 
 ### Features
-
-- Laravel Breeze for Authentication(login,registration,forget password,logout)
-- Dynamic User Name on top right corner of Dashboard.
-- Dynamic Dashboard shows the total number of Notes for the Specific User.
-- List of Total Notes for the specific User managed by Jquery Datatable plugin.
-- Edit, Delete, Search, pagination, custom entry and Create Notes Dynamically Using Ajax architecture(axios library).
-- user-friendly interface for creating, viewing, and
-  managing notes.
+- Add, mark, and delete tasks
+- Ajax-based CRUD operations.
+- Seamless task management through AJAX requests
+  without page reloads.
+- User-friendly interface design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +182,7 @@ browser.
 
 Sabbir Hossain- h.sabbir36@yahoo.com
 
-Project Link: https://github.com/Sabbir-Hossain12/Note-taking-App
+Project Link: https://github.com/Sabbir-Hossain12/inilabs-task.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,7 +196,7 @@ i would like to give credit to some of the resources down below that helped my p
 
 * [Font Awesome](https://fontawesome.com)
 * [Bootstrap](https://getbootstrap.com/)
-* [Data Table](https://datatables.net/)
+* [MD5]()
 * [Axios]()
 * [Toastify JS]()
 
